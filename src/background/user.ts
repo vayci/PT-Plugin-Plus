@@ -204,9 +204,10 @@ export class User {
   public getMoreInfos(site: Site, userInfo: UserInfo): Promise<any> {
     return new Promise<any>((resolve?: any, reject?: any) => {
       let requests: any[] = [];
-      let selectors = ["userSeedingTorrents", "bonusExtendInfo", "hnrExtendInfo", "levelExtendInfo", "userUploadedTorrents"];
+      let selectors = ["userSeedingTorrents", "bonusExtendInfo", "hnrExtendInfo", "levelExtendInfo", "userUploadedTorrents", "inviteExtendInfo"];
 
       selectors.forEach((name: string) => {
+        console.log('getMoreInfos =>' + selectors)
         let host = site.host as string;
         let rule = this.service.getSiteSelector(site, name);
 

@@ -198,7 +198,8 @@
         "trueDownloaded": "真实下载",
         "classPoints": "等级积分",
         "unsatisfieds": "H&R考核中",
-        "prewarn": "H&R预警"
+        "prewarn": "H&R预警",
+        "inviteStatus": "邀请状态"
       },
       "levelRequirement": {
         "levelRequirements": "升级要求",

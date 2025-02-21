@@ -126,6 +126,15 @@
         }
       }
     },
+    "inviteExtendInfo": {
+      "page": "/invite.php?id=$user.id$",
+      "fields": {
+        "inviteStatus": {
+          "selector": ["form[action*='invite.php'] > input"],
+          "filters": ["query.val()"]
+        }
+      }
+    },
     "userSeedingTorrents": {
       "prerequisites": "!user.seeding",
       "page": "/getusertorrentlistajax.php?userid=$user.id$&type=seeding",

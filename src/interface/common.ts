@@ -611,6 +611,8 @@ export interface UserInfo {
   lastUpdateStatus?: EUserDataRequestStatus;
   // 邀请数量
   invites?: number;
+  // 邀请状态
+  inviteStatus?: string;
   // 头像
   avatar?: string;
   // 是否已登录

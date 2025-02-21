@@ -202,7 +202,8 @@
         "trueDownloaded": "True Downloaded",
         "classPoints": "Class Points",
         "unsatisfieds": "Unsatisfieds",
-        "prewarn": "H&R Prewarn"
+        "prewarn": "H&R Prewarn",
+        "inviteStatus": "Invite status"
       },
       "levelRequirement": {
         "levelRequirements": "Level Requirements",
